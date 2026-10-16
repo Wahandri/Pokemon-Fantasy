@@ -1,0 +1,38 @@
+{
+  "tileSize": 32,
+  "columns": 16,
+  "autotiles": {
+    "grass": 0,
+    "dirt": 48,
+    "sand": 96,
+    "water": 144
+  },
+  "blocks": {
+    "house_blue": {
+      "start": 192,
+      "w": 3,
+      "h": 4
+    },
+    "house_orange": {
+      "start": 204,
+      "w": 3,
+      "h": 4
+    },
+    "tree": {
+      "start": 216,
+      "w": 2,
+      "h": 3
+    },
+    "tallgrass": {
+      "start": 222,
+      "w": 2,
+      "h": 2
+    }
+  },
+  "tiles": {
+    "wall_blue": 226,
+    "wall_orange": 227,
+    "bush": 228,
+    "mound": 229
+  }
+}

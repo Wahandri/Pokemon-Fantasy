@@ -1,0 +1,12 @@
+{
+  "name": "essentials",
+  "image": "atlas.png",
+  "imagewidth": 512,
+  "imageheight": 480,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "tilecount": 230,
+  "columns": 16,
+  "margin": 0,
+  "spacing": 0
+}

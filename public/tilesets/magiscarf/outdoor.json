@@ -1,0 +1,48 @@
+{
+  "tileSize": 32,
+  "columns": 16,
+  "tiles": {
+    "grass": 0,
+    "grass2": 1,
+    "grass3": 2,
+    "tallgrass": 3,
+    "tallgrass2": 4,
+    "tallgrass3": 5,
+    "tallgrass4": 6,
+    "tallgrass_a": 7,
+    "path": 8,
+    "path2": 9,
+    "dirt": 10,
+    "water": 11,
+    "water2": 12,
+    "water3": 13,
+    "bush": 14,
+    "fence": 15,
+    "tree_top": 16,
+    "tree_bot": 17,
+    "tree2_top": 18,
+    "tree2_bot": 19,
+    "pine_top": 20,
+    "pine_bot": 21
+  },
+  "blocks": {
+    "house1": {
+      "start": 22,
+      "w": 5,
+      "h": 4,
+      "stride": 16
+    },
+    "house2": {
+      "start": 42,
+      "w": 4,
+      "h": 4,
+      "stride": 16
+    },
+    "house3": {
+      "start": 58,
+      "w": 3,
+      "h": 2,
+      "stride": 16
+    }
+  }
+}

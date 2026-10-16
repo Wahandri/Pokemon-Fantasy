@@ -1,0 +1,12 @@
+{
+  "name": "magiscarf-outdoor",
+  "image": "outdoor.png",
+  "imagewidth": 512,
+  "imageheight": 128,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "tilecount": 64,
+  "columns": 16,
+  "margin": 0,
+  "spacing": 0
+}

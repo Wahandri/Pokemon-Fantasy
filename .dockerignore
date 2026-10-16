@@ -1,0 +1,9 @@
+node_modules
+dist
+.assets-src
+.git
+*.log
+*.tsbuildinfo
+tools
+.decomp
+.tools

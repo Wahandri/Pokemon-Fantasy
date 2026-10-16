@@ -1,0 +1,27 @@
+{
+  "name": "poke-rpg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3510",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3510",
+    "typecheck": "tsc --noEmit",
+    "assets:fetch": "bash tools/fetch-tilesets.sh",
+    "assets:tileset": "python3 tools/build-tileset.py",
+    "assets:maps": "python3 tools/build-tiled-maps.py",
+    "assets": "npm run assets:tileset && npm run assets:maps"
+  },
+  "dependencies": {
+    "@pkmn/sim": "^0.10.11",
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "@pkmn/data": "^0.10.11",
+    "@pkmn/dex": "^0.10.11",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vite-plugin-pwa": "^0.20.1"
+  }
+}

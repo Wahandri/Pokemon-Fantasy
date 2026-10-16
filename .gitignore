@@ -1,0 +1,8 @@
+node_modules
+dist
+.assets-src
+.decomp
+__pycache__
+*.log
+*.tsbuildinfo
+.DS_Store
